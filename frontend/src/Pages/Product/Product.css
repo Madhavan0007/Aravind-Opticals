@@ -1,0 +1,122 @@
+.full-page{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff651ee1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.not-found{
+    height: 100vh;
+    color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.not-found .apology{
+    font-size: 35px;
+}
+
+.not-found .link{
+    font-size: 20px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: rgb(161, 158, 158); /* This will inherit the color from the parent element */
+  }
+
+.link-style:hover{
+    color: rgb(112, 112, 112);
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    height: 100vh;
+  }
+
+  .product-image{
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(163, 163, 163, 0.473);
+    padding: 2rem;
+  }
+  
+  .product-image img {
+    width: 550px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .product-image:hover img {
+    transform:scale(1.1);
+  }
+
+  .product-image:hover {
+    border-color: #ff651ee1;
+  }
+  
+  .product-details {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+  }
+  
+  .product-details .brand {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  .product-details .price {
+    font-size: 38px;
+    margin-bottom: 8px;
+    color: #ff651e;
+  }
+
+  .product-details .info-category{
+    color: grey;
+    font-weight: 600;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .information{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: #ccc6c611;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-radius: 10%;
+    min-height: 200px;
+  }
+
+ .information .info-details{
+    display: flex;
+    justify-content: space-between;
+    min-width: 440px;
+ }
+
+ .information .info-details .product-title{
+    color: #b7b7b7;
+}
+
+ .product-title .product-def{
+    flex: 1;
+ }
+  

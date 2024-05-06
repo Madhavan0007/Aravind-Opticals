@@ -1,0 +1,9 @@
+.logo-img{
+    height: 150px;
+    width: 200px;
+}
+
+.slider{
+    max-width: 80%;
+    overflow-x: hidden;
+}

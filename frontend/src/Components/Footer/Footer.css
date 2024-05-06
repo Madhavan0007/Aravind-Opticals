@@ -1,0 +1,75 @@
+.footer {
+    background-color: #fd6924d3;
+    font-size: 18px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer-image {
+    display: flex;
+    align-items: start;
+}
+
+.footer-image .slogan{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-image .slogan p{
+    font-weight: 300;
+}
+
+.footer img{
+    height: 100px;
+}
+
+.about:active, .abo{
+    text-decoration: none;
+}
+
+
+
+.about div,
+.service div,
+.find-us div{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.about p,
+.service p{
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: rgba(61, 60, 60, 0.856)
+}
+
+.icon-group {
+    display: flex;
+    gap: 5px;
+}
+
+.icons{
+    font-size: 30px;
+}
+
+.whatsapp:hover{
+    color: rgba(41, 202, 1, 0.849);
+    font-size: 35px;
+}
+
+.instagram:hover{
+    color: rgb(255, 0, 85);
+    font-size: 35px;
+}
+
+.twitter:hover{
+    color: rgb(6, 26, 6);
+    font-size: 35px;
+}
