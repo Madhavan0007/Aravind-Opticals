@@ -39,6 +39,18 @@ module.exports.getProductById = async (req, res) => {
         res.status(500).json({ message: 'Internal server error' });
     }
 };
+
+module.exports.addProduct = async (req, res) => {
+    try {
+      const productData = req.body; // Get product data from request body
+      const newProduct = new Product(productData); // Create new product instance
+      await newProduct.save(); // Save product to database
+      res.status(201).json({ message: 'Product added successfully', product: newProduct });
+    } catch (error) {
+      console.error('Error adding product:', error);
+      res.status(500).json({ message: 'Internal server error' });
+    }
+  };
     
 
 
