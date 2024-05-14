@@ -15,7 +15,12 @@ const Card = ({ product }) => {
   return (
     <div className='card'>
         <div className="card__body">
-            <img src={`/products/${product.Image}`} alt={product.Brand_name} className='card__image'/>
+            {
+                product.Image.includes('http') ? (
+                    <img src={product.Image} alt={product.Brand_name} className='card__image'/>
+                    ) : (
+                    <img src={`/products/${product.Image}`} alt={product.Brand_name} className='card__image'/>
+                )}
         </div>
         <div className="card__footer">
             <div className="card__title">

@@ -2,7 +2,7 @@
     font-size: 30px;
     font-weight: 500;
     color: #ff651ee1;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +12,44 @@
 .container{
     margin-top: 5rem;
     margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    
+}
+
+.search-field input{
+    border: none;
+    outline: none;
+    width: 350px;
+    font-size: 1rem;
+    font-family: 'poppins';
+}
+
+.product-count{
+    color: #a3a3a3;
+}
+
+.search-container:focus-within {
+    border-color: #ff651ee1; 
+    outline : none;
+}
+
+.search-container:focus-within .product-count{
+    color: #ff651ee1;
 }
 
 .products {

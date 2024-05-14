@@ -29,8 +29,8 @@ const Footer = () => {
                     <p>Gallery</p>
                 </div>
                 
-                <div className="service">
-                        <div>Service</div>
+                <div className="service" id="service">
+                        <Link to="/about/#service" style={{textDecoration: 'none', color: 'black'}}><div>Service</div></Link>
                         <p>Prescription Glasses</p>
                         <p>Contact Lens Services</p>
                         <p>Frame Selection</p>
@@ -40,9 +40,15 @@ const Footer = () => {
                 <div className="find-us">
                     <div >Find Us</div>
                     <div className="icon-group">
-                        <IoLogoWhatsapp className='icons whatsapp'/>
-                        <RiInstagramFill className='icons instagram'/>
-                        <FaSquareXTwitter className='icons twitter'/>
+                        <a href="https://wa.me/916369638806" style={{textDecoration: 'none', color: 'black'}} target="_blank" rel="noopener noreferrer">
+                            <IoLogoWhatsapp className='icons whatsapp'/>
+                        </a>
+                        <a href="https://www.instagram.com/madhu._.balaji/" style={{textDecoration: 'none', color: 'black'}} target="_blank" rel="noopener noreferrer">
+                            <RiInstagramFill className='icons instagram'/>
+                        </a>
+                        <a href="https://twitter.com/madhubalaji_vs" style={{textDecoration: 'none', color: 'black'}} target="_blank" rel="noopener noreferrer">
+                            <FaSquareXTwitter className='icons twitter'/>
+                        </a>
                     </div>
                 </div>
 

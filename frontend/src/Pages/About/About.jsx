@@ -40,7 +40,7 @@ const About = () => {
 
             <div className="line"></div>
 
-            <div className="our-services">
+            <div className="our-services" id="service">
                 <p className='service-title'>Our Services</p>
                 <div className="glasses">
                     <div className="description">
@@ -122,11 +122,11 @@ const About = () => {
                         <div className="opening-details">
                             <div className="details">
                                 <p className='dates'>Monday - Friday</p>
-                                <p className='timings'>08.00 AM - 04.00 PM</p>
+                                <p className='timings'>08.00 AM - 08.00 PM</p>
                             </div>
                             <div className="details">
                                 <p className='dates'>Saturday</p>
-                                <p className='timings'>10.00 AM - 19.00 PM</p>
+                                <p className='timings'>9.00 AM - 6.00 PM</p>
                             </div>
                             <div className="details">
                                 <p className='dates'>Sundays & Holidays</p>

@@ -60,16 +60,16 @@
 }
 
 .whatsapp:hover{
-    color: rgba(41, 202, 1, 0.849);
-    font-size: 35px;
+    color: rgba(38, 179, 3, 0.849);
+    transform: translateY(-3px);
 }
 
 .instagram:hover{
-    color: rgb(255, 0, 85);
-    font-size: 35px;
+    color: rgb(221, 4, 76);
+    transform: translateY(-3px);
 }
 
 .twitter:hover{
     color: rgb(6, 26, 6);
-    font-size: 35px;
+    transform: translateY(-3px);
 }

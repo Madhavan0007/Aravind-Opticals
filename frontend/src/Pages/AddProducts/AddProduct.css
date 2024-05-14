@@ -1,0 +1,88 @@
+.add-product-container {
+    width: 40%;
+    margin: 4rem auto;
+    border: 2px solid rgba(211, 211, 211, 0.726);
+    padding: 3rem;
+    border-radius: 6px;
+    padding-left: 6rem;
+  }
+  
+  .add-product-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff651ee1;
+  }
+  
+  .add-product-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .add-product-container form div {
+    margin-bottom: 18px;
+  }
+  
+  .add-product-container form label {
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .add-product-container form input,
+  .add-product-container form textarea,
+  .add-product-container form select
+   {
+    padding: 8px;
+    font-size: 16px;
+    width: 80%;
+    display: block;
+  }
+  
+  /* CSS */
+.select-container {
+    position: relative;
+  }
+  
+  .select-container {
+    appearance: none; /* Remove default appearance */
+    padding: 8px 12px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    background-color: #fff; /* Add background color */
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  .select-container:focus {
+    outline: none; /* Remove focus outline */
+    border-color: #ff651ee1; /* Change border color on focus */
+  }
+  
+  .select-container option {
+    padding: 8px 12px; /* Adjust padding as needed */
+  }
+  
+  .select-container option:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  
+  .add-product-container form button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ff651ee1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 1rem auto;
+    width: 40%;
+    border-radius: 8px;
+  }
+  
+  .add-product-container form button:hover {
+    background-color: #eb5e1ee1;
+  }
+
+
+  

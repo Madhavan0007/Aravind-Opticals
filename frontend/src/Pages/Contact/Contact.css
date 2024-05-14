@@ -20,7 +20,7 @@
 
 
 
-.container{
+.contact-container{
     margin-top: 60px;
     display: flex;
     align-items: center;
@@ -50,8 +50,8 @@ label {
     margin-bottom: 10px;
 }
 
-input[type="text"],
-input[type="email"],
+.form-field input[type="text"],
+.form-field input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;

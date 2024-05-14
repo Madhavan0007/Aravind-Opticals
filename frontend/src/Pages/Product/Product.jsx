@@ -12,7 +12,7 @@ const Product = () => {
     useEffect(() => {
         const fetchProduct = async () => {
             try {
-                const response = await fetch(`http://localhost:3001/product/${productId}`);
+                const response = await fetch(`https://aravind-opticals.onrender.com/product/${productId}`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }
@@ -52,7 +52,13 @@ const Product = () => {
       return (
         <div className="product-container">
             <div className="product-image">
-                <img src={`/products/${product.Image}`} alt={product.Brand_name} />
+                {
+                product.Image.includes('http') ? (
+                    <img src={product.Image} alt={product.Brand_name} />
+                    ) : (
+                    <img src={`/products/${product.Image}`} alt={product.Brand_name} />
+                )}
+
             </div>
             <div className="product-details">
                 <h2 className='brand'>{product.Brand_name}</h2>

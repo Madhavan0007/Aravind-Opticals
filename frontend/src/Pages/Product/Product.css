@@ -99,7 +99,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background: #ccc6c611;
+    background: #dddddd11;
     justify-content: space-evenly;
     padding: 2rem;
     border-radius: 10%;
@@ -113,7 +113,8 @@
  }
 
  .information .info-details .product-title{
-    color: #b7b7b7;
+    color: #aaa7a7;
+    font-weight: 600;
 }
 
  .product-title .product-def{
