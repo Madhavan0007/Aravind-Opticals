@@ -25,8 +25,8 @@ export const Navbar = () => {
             <li onClick={() => setMenu("contact")}>
                 <Link style={{textDecoration: 'none'}} to='/contact' className='nav-link'>CONTACT US</Link>{menu==="contact"?<hr/>:<></>}
             </li>
-            <li>
-                <Link style={{textDecoration: 'none'}} to='/login' className='nav-login'><button>ADMIN LOGIN</button></Link> 
+            <li onClick={() => setMenu("login")}>
+                <Link style={{textDecoration: 'none'}} to='/login' className='nav-login'><button>ADMIN LOGIN</button></Link>{menu==="login"?<></>:<></>}
             </li>
         </div>
     </div>
